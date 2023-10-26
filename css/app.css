@@ -1,0 +1,123 @@
+:root{
+    --bs-blue: #090E4B;
+    --bs-green: #FE8E00;
+}
+html{
+    font-size: 62.5%;    
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #FFF2E7;
+}
+.banner{
+    max-width: 100%;
+    height: auto;
+}
+.nav-item:hover{
+    background-color: var(--bs-green);
+    border-radius: 10px;
+}
+
+
+
+
+h1,h2,h3{
+    font-family: 'Raleway', serif;
+}
+h1{
+    font-size: 3.8rem;
+}
+@media(min-width:768px){
+    h1{
+        font-size: 5rem;
+    }
+}
+h2{
+    font-size: 3.2rem;
+}
+@media(min-width:768px){
+    h2{
+        font-size: 4rem;
+    }
+}
+h3{
+    font-size: 2.4rem;
+}
+@media(min-width:768px){
+    h3{
+        font-size: 3rem;
+    }
+}
+h3:hover{
+    color: var(--bs-green);
+    cursor: pointer;
+}
+
+/**Reescribir colores*/
+.text-primary,
+.nombre-sitio{
+    color: var(--bs-blue)!important;
+}
+.bg-primary{
+    background-color: var(--bs-blue)!important;
+}
+.btn-success{
+    background-color: var(--bs-green)!important;
+}
+/* Cambio de color al pasar el mouse por encima del botón */
+.btn-success:hover {
+    background-color: var(--bs-blue)!important; /* Cambia el color de fondo al pasar el mouse */
+    border: 4px solid var(--bs-green)!important;
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
+.bg-form{
+    background-color: #4B52A8;
+    border-radius: 5px;
+}
+
+.hero{
+    background-image: url(../img/curso1.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+@media(min-width:768px){
+    .hero{
+        height: 55rem;
+    }
+}
+
+/** Productos */
+
+
+@media(min-width: 768px){
+    .producto img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.categoria img{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.categoria img:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    background-color: red;
+}
+
+.form-control{
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+img .curso{
+    width: 100%;
+}

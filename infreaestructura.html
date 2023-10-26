@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    
+  <nav class="bg-white">
+    <div class="container-xl py-2">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="index.html">
+                    <img class="img-banner" src="img/logo2.png" width="80px" alt="imagen logo">
+                </a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-around align-items-center">
+                <ul class="nav flex-column flex-md-row justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link fs-2 fw-bold text-primary" href="">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-2 fw-bold text-primary" href="">Carreras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-2 fw-bold text-primary" href="">Novedades</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+      <section class="container-xl pb-5">
+        <h1 class="text-center py-5">Infreaestructura de Tecnología de Información</h1>
+  
+        <div class="row justify-content-center">
+          <form class="col-md-8" action="">
+              <fieldset>
+                  <legend class="bg-primary text-center text-white fs-2 fw-bold">Inscribirme</legend>
+  
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="nombre">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="nombre">Apellido</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="asunto">Dni</label>
+                      <input type="tel" class="form-control" id="asunto" placeholder="Tu dni">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Tu email">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="tel">Telefono</label>
+                      <input type="tel" class="form-control" id="tel" placeholder="Tu telefono">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="tel">Mensaje</label>
+                      <textarea class="form-control" name="" id="mensaje" cols="30" rows="10">Mensaje</textarea>
+                  </div>
+              </fieldset>
+  
+              <fieldset>
+                  <legend class="bg-primary text-center text-white fs-2 fw-bold">Localidad</legend>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="localidad">Localidad</label>
+                      <select class="form-control" name="" id="localidad">
+                          <option value="">--Seleccione--</option>
+                          <option value="SP">Saenz Peña</option>
+                          <option value="RS">Resistencia</option>
+                          <option value="VA">Villa Angela</option>
+                          <option value="VB">Villa Berthet</option>
+                      </select>
+                  </div>
+              </fieldset>
+  
+              <fieldset>
+                  <legend class="bg-primary text-center text-white fs-2 fw-bold">Elegí tu propuesta</legend>
+                  
+                  <div class="mb-3 form-check">
+                      <label class="form-label fw-bold" for="cliente">Carrera</label>
+                      <input name="tipo" type="radio" class="form-check-input" id="tel">
+                  </div>
+                  <!--Name es para relacionar los dos checkbutton y no se pueda seleccionar los 2 juntos-->
+                  <div class="mb-3 form-check">
+                      <label class="form-label fw-bold" for="preveedor">Curso</label>
+                      <input name="tipo" type="radio" class="form-check-input" id="proveedor">
+                  </div>
+              </fieldset>
+  
+              <fieldset>
+                  <legend class="bg-primary text-center text-white fs-2 fw-bold">Seleccionar propuesta</legend>
+                  <div class="mb-3">
+                      <label class="form-label fw-bold" for="localidad"></label>
+                      <select class="form-control" name="" id="localidad">
+                          <option value="">--Seleccione--</option>
+                          <option value="SP">Desarrollo de Software</option>
+                          <option value="RS">Marketing y redes sociales</option>
+                          <option value="VA">Administración y logística</option>
+                          <option value="VB">Informatica y redes</option>
+                      </select>
+                  </div>
+              </fieldset>
+  
+              <div class="d-grid d-md-flex">
+                  <input type="submit" class="btn btn-secondary fs-2 px-5" value="Enviar Formulario">
+              </div>
+              
+          </form>
+  
+      </div>
+      </section>
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

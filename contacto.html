@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!------------ Menú de navegacion --------------->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo2.png" width="70rem" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cursos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Propuestas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Carreras</a></li>
+                  <li><a class="dropdown-item" href="#">Inscripciones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> <!------------ Menú de navegacion --------------->
+
+      <img src="img/banner.jpg" class="img-fluid" alt="imagen principal">
+
+
+    <main class="container-xl py-5">
+        <h2 class="text-center my-5">Contacto</h2>
+
+            <div class="row justify-content-center">
+                <form class="col-md-8" action="">
+                    <fieldset>
+                        <legend class="bg-primary text-center text-white fs-2 fw-bold">Tus Datos</legend>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="nombre">Apellido</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="asunto">Dni</label>
+                            <input type="tel" class="form-control" id="asunto" placeholder="Tu dni">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="tel">Telefono</label>
+                            <input type="tel" class="form-control" id="tel" placeholder="Tu telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="tel">Mensaje</label>
+                            <textarea class="form-control" name="" id="mensaje" cols="30" rows="10">Mensaje</textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="bg-primary text-center text-white fs-2 fw-bold">Localidad</legend>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="localidad">Localidad</label>
+                            <select class="form-control" name="" id="localidad">
+                                <option value="">--Seleccione--</option>
+                                <option value="SP">Saenz Peña</option>
+                                <option value="RS">Resistencia</option>
+                                <option value="VA">Villa Angela</option>
+                                <option value="VB">Villa Berthet</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="bg-primary text-center text-white fs-2 fw-bold">Elegí tu propuesta</legend>
+                        
+                        <div class="mb-3 form-check">
+                            <label class="form-label fw-bold" for="cliente">Carrera</label>
+                            <input name="tipo" type="radio" class="form-check-input" id="tel">
+                        </div>
+                        <!--Name es para relacionar los dos checkbutton y no se pueda seleccionar los 2 juntos-->
+                        <div class="mb-3 form-check">
+                            <label class="form-label fw-bold" for="preveedor">Curso</label>
+                            <input name="tipo" type="radio" class="form-check-input" id="proveedor">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="bg-primary text-center text-white fs-2 fw-bold">Seleccionar propuesta</legend>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="localidad"></label>
+                            <select class="form-control" name="" id="localidad">
+                                <option value="">--Seleccione--</option>
+                                <option value="SP">Desarrollo de Software</option>
+                                <option value="RS">Marketing y redes sociales</option>
+                                <option value="VA">Administración y logística</option>
+                                <option value="VB">Informatica y redes</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <div class="d-grid d-md-flex">
+                        <input type="submit" class="btn btn-secondary fs-2 px-5" value="Enviar Formulario">
+                    </div>
+                    
+                </form>
+
+            </div>
+
+    </main>
+
+   
+
+    <footer class="pt5 mt-5 border-top ">
+        <div class="container-xl mt-5 mb-3">
+            <div class="row mb-3">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h3 class="mb-4">Categorias</h3>
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Cocina</a>
+                        <a class="text-dark text-decoration-none" href="#">Jardin</a>
+                        <a class="text-dark text-decoration-none" href="#">Oficina</a>
+                        <a class="text-dark text-decoration-none" href="#">Cochera</a>
+                        <a class="text-dark text-decoration-none" href="#">Dormitorio</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h3 class="mb-4">Sobre nosotros</h3>
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Cocina</a>
+                        <a class="text-dark text-decoration-none" href="#">Jardin</a>
+                        <a class="text-dark text-decoration-none" href="#">Oficina</a>
+                        <a class="text-dark text-decoration-none" href="#">Cochera</a>
+                        <a class="text-dark text-decoration-none" href="#">Dormitorio</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h3 class="mb-4">Soporte</h3>
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Cocina</a>
+                        <a class="text-dark text-decoration-none" href="#">Jardin</a>
+                        <a class="text-dark text-decoration-none" href="#">Oficina</a>
+                        <a class="text-dark text-decoration-none" href="#">Cochera</a>
+                        <a class="text-dark text-decoration-none" href="#">Dormitorio</a>
+                    </nav>
+                </div>
+            </div>
+
+            <p class="bg-dark text-white text-center pt-5 fs-2 pt-2 w-100%">Todos los derechos reservados - Maximiliano Garcia</p>
+
+        </div>
+
+    </footer>
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
