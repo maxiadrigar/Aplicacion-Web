@@ -110,10 +110,6 @@ h3:hover{
     transform: scale(1.2);
 }
 
-.footer{
-    background-color: red;
-}
-
 .form-control{
     padding: 1rem;
     font-size: 1.6rem;
